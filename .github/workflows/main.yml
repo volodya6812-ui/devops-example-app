@@ -6,7 +6,7 @@ on:
       - "main"
 
 env:
-  TEST_TAG: alkselsv/devops-example-app:test
+  TEST_TAG: 1mmortalll/devops-example-app:test
 
 jobs:
   docker:
@@ -45,5 +45,5 @@ jobs:
           context: .
           file: services/caddy/Dockerfile
           push: true
-          tags: alkselsv/devops-example-caddy:latest
+          tags: 1mmortalll/devops-example-caddy:latest
 #test
