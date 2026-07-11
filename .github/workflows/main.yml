@@ -37,7 +37,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: alkselsv/devops-example-app:latest
+          tags: 1mmortalll/devops-example-app:latest
 
       - name: Build and push caddy
         uses: docker/build-push-action@v2
