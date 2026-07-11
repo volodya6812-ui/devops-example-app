@@ -46,3 +46,4 @@ jobs:
           file: services/caddy/Dockerfile
           push: true
           tags: alkselsv/devops-example-caddy:latest
+#test
